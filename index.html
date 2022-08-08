@@ -13,17 +13,14 @@
     </head>
     <body>
     	<script>
-         // <iframe src="https://pages.miami/kayvon" frameborder="0" style="border: 0; width: 100vw; height: 100vh;"></iframe>
-        var iframe = document.createElement("iframe");
-        var dt = new Date();
-        iframe.src = `https://pages.miami/kayvon?dt=${dt.getTime()}`;
-        iframe.id = dt.getTime();
-        iframe.frameBorder = 0;
-        // iframe.scrolling = "no";
-        iframe.style.width = "100vw";
-        iframe.style.height = "100vh";
-        // YAHOO.util.Dom.insertAfter(iframe, this.pre + "cardMask");   
-        document.body.appendChild(iframe);
+            var iframe = document.createElement("iframe");
+            var dt = new Date();
+            iframe.src = `https://pages.miami/kayvon?dt=${dt.getTime()}`;
+            iframe.id = dt.getTime();
+            iframe.frameBorder = 0;
+            iframe.style.width = "100vw";
+            iframe.style.height = "100vh";
+            document.body.appendChild(iframe);
         </script>       
     </body>
 </html>
